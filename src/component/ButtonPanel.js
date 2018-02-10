@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Button from './Button';
+import React from 'react'
+import Button from './Button'
 
 class ButtonPanel extends React.Component {
   handleClick = (buttonName) => {
-    this.props.clickHandler(buttonName);
+    this.props.clickHandler(buttonName)
   }
 
-  render() {
+  render () {
     return (
       <div>
         <div>
@@ -39,8 +39,8 @@ class ButtonPanel extends React.Component {
           <Button symbol='=' clickHandler={this.handleClick}/>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default ButtonPanel;
+export default ButtonPanel

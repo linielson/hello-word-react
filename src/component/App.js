@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Display from './Display';
-import ButtonPanel from './ButtonPanel';
+import React, { Component } from 'react'
+import Display from './Display'
+import ButtonPanel from './ButtonPanel'
 
 class App extends Component {
   handleClick = (buttonName) => {
-    console.log('click', buttonName);
+    console.log('click', buttonName)
   }
 
-  render() {
+  render () {
     return (
       <div>
         <Display value="17"/>
@@ -15,8 +15,8 @@ class App extends Component {
           clickHandler={this.handleClick}
         />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

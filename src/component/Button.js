@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react'
 
 class Button extends React.Component {
   onClick = () => {
-    this.props.clickHandler(this.props.symbol);
+    this.props.clickHandler(this.props.symbol)
   }
 
-  render() {
+  render () {
     return (
       <button
-        onClick={ this.onClick }
+        onClick={this.onClick}
       >
-        { this.props.symbol }
+        {this.props.symbol}
       </button>
-    );
+    )
   }
 }
 
-export default Button;
+export default Button
