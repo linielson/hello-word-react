@@ -4,7 +4,7 @@ class Display extends React.Component {
   render() {
     return (
       <div>
-        Awesome Display
+        [0,00]
       </div>
     );
   }

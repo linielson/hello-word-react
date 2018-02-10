@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import Button from './Button';
 
 class ButtonPanel extends React.Component {
   render() {
-    return <div>Awesome button panel</div>;
+    return <Button symbol='+'/>;
   }
 }
 
