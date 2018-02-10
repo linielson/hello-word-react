@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Button extends React.Component {
   onClick = () => {
-    console.log(`Clicked at ${this.props.symbol}`)
+    this.props.clickHandler(this.props.symbol);
   }
 
   render() {

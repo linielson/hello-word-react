@@ -3,11 +3,17 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
 class App extends Component {
+  handleClick = (buttonName) => {
+    console.log('click', buttonName);
+  }
+
   render() {
     return (
       <div>
         <Display value="17"/>
-        <ButtonPanel/>
+        <ButtonPanel
+          clickHandler={this.handleClick}
+        />
       </div>
     );
   }
