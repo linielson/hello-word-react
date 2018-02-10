@@ -4,7 +4,7 @@ class Display extends React.Component {
   render() {
     return (
       <div>
-        [0,00]
+        {this.props.value}
       </div>
     );
   }

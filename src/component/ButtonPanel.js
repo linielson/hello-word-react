@@ -9,7 +9,7 @@ class ButtonPanel extends React.Component {
           <Button symbol='AC'/>
           <Button symbol='+/-'/>
           <Button symbol='%'/>
-          <Button symbol='/'/>
+          <Button symbol='÷'/>
         </div>
         <div>
           <Button symbol='7'/>
